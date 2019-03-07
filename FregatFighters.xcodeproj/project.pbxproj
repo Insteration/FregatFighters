@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		ACE4CA93223126FA00543FF9 /* ChoiseFighterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE4CA92223126FA00543FF9 /* ChoiseFighterTableViewController.swift */; };
+		ACE4CA962231312100543FF9 /* FighterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE4CA952231312100543FF9 /* FighterViewController.swift */; };
 		D9743EEA223119FA00FB77D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9743EE9223119FA00FB77D4 /* AppDelegate.swift */; };
-		D9743EEC223119FA00FB77D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9743EEB223119FA00FB77D4 /* ViewController.swift */; };
 		D9743EEF223119FA00FB77D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9743EED223119FA00FB77D4 /* Main.storyboard */; };
 		D9743EF1223119FB00FB77D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9743EF0223119FB00FB77D4 /* Assets.xcassets */; };
 		D9743EF4223119FC00FB77D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9743EF2223119FC00FB77D4 /* LaunchScreen.storyboard */; };
@@ -18,9 +18,9 @@
 
 /* Begin PBXFileReference section */
 		ACE4CA92223126FA00543FF9 /* ChoiseFighterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiseFighterTableViewController.swift; sourceTree = "<group>"; };
+		ACE4CA952231312100543FF9 /* FighterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FighterViewController.swift; sourceTree = "<group>"; };
 		D9743EE6223119FA00FB77D4 /* FregatFighters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FregatFighters.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9743EE9223119FA00FB77D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D9743EEB223119FA00FB77D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D9743EEE223119FA00FB77D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D9743EF0223119FB00FB77D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9743EF3223119FC00FB77D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -39,6 +39,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ACE4CA942231275700543FF9 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				ACE4CA952231312100543FF9 /* FighterViewController.swift */,
+				ACE4CA92223126FA00543FF9 /* ChoiseFighterTableViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		D9743EDD223119FA00FB77D4 = {
 			isa = PBXGroup;
 			children = (
@@ -60,9 +69,8 @@
 			isa = PBXGroup;
 			children = (
 				D9743EE9223119FA00FB77D4 /* AppDelegate.swift */,
-				D9743EEB223119FA00FB77D4 /* ViewController.swift */,
 				D9743EED223119FA00FB77D4 /* Main.storyboard */,
-				ACE4CA92223126FA00543FF9 /* ChoiseFighterTableViewController.swift */,
+				ACE4CA942231275700543FF9 /* ViewControllers */,
 				D9743EF0223119FB00FB77D4 /* Assets.xcassets */,
 				D9743EF2223119FC00FB77D4 /* LaunchScreen.storyboard */,
 				D9743EF5223119FC00FB77D4 /* Info.plist */,
@@ -143,8 +151,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACE4CA93223126FA00543FF9 /* ChoiseFighterTableViewController.swift in Sources */,
-				D9743EEC223119FA00FB77D4 /* ViewController.swift in Sources */,
 				D9743EEA223119FA00FB77D4 /* AppDelegate.swift in Sources */,
+				ACE4CA962231312100543FF9 /* FighterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
