@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ACE4CA93223126FA00543FF9 /* ChoiseFighterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE4CA92223126FA00543FF9 /* ChoiseFighterTableViewController.swift */; };
 		D9743EEA223119FA00FB77D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9743EE9223119FA00FB77D4 /* AppDelegate.swift */; };
 		D9743EEC223119FA00FB77D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9743EEB223119FA00FB77D4 /* ViewController.swift */; };
 		D9743EEF223119FA00FB77D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9743EED223119FA00FB77D4 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ACE4CA92223126FA00543FF9 /* ChoiseFighterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiseFighterTableViewController.swift; sourceTree = "<group>"; };
 		D9743EE6223119FA00FB77D4 /* FregatFighters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FregatFighters.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9743EE9223119FA00FB77D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9743EEB223119FA00FB77D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				D9743EE9223119FA00FB77D4 /* AppDelegate.swift */,
 				D9743EEB223119FA00FB77D4 /* ViewController.swift */,
 				D9743EED223119FA00FB77D4 /* Main.storyboard */,
+				ACE4CA92223126FA00543FF9 /* ChoiseFighterTableViewController.swift */,
 				D9743EF0223119FB00FB77D4 /* Assets.xcassets */,
 				D9743EF2223119FC00FB77D4 /* LaunchScreen.storyboard */,
 				D9743EF5223119FC00FB77D4 /* Info.plist */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACE4CA93223126FA00543FF9 /* ChoiseFighterTableViewController.swift in Sources */,
 				D9743EEC223119FA00FB77D4 /* ViewController.swift in Sources */,
 				D9743EEA223119FA00FB77D4 /* AppDelegate.swift in Sources */,
 			);
